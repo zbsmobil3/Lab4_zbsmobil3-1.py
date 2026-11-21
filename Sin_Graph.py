@@ -4,7 +4,8 @@ use the derivative of sin which is cos and just add cos to the x value mod 2pi""
 import matplotlib.pyplot as plt
 import math
 
-x_values = range(1, 1001)
+x_values = range(0, 400)
+x_values = [(i/10) for i in x_values]
 y_values = [math.cos(x % (2*math.pi)) for x in x_values]
 
 plt.style.use('seaborn-v0_8')
