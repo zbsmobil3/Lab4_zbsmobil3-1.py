@@ -6,7 +6,7 @@ from math import *
 
 x_values = range(0, 400)
 x_values = [(i/10) for i in x_values]
-y_values = [x*x*sqrt(3)/2 for x in x_values]
+y_values = [x*x*sqrt(3)/4 for x in x_values]
 
 plt.style.use('seaborn-v0_8')
 fig, ax = plt.subplots()
