@@ -1,5 +1,5 @@
-"""A file to hold the code for creating the sin graph while not using the sin function. My plan is to
-use the derivative of sin which is cos and just add cos to the x value mod 2pi"""
+"""Area of an equilateral triangle. By Zach Stull. A program to hold the code for creating the graph of the 
+area of an equilateral triangle based off of one base length. Basic starter code came from the textbook. 11/21/26"""
 
 import matplotlib.pyplot as plt
 from math import *
