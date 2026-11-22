@@ -1,0 +1,10 @@
+packaging==26.3
+pillow==13.0.0
+pluggy==1.7.0
+pygame==2.6.1
+pygame-ce==2.5.8
+Pygments==2.21.0
+pyparsing==3.3.3
+pytest==9.1.1
+python-dateutil==4.0.0
+tzdata==2026.6
